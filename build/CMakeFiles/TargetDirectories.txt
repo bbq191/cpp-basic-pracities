@@ -1,5 +1,0 @@
-/Users/vincixu/Workshops/cpp-basic-practies/build/CMakeFiles/CMakeCXXCompilerId.dir
-/Users/vincixu/Workshops/cpp-basic-practies/build/CMakeFiles/example01.dir
-/Users/vincixu/Workshops/cpp-basic-practies/build/CMakeFiles/example02.dir
-/Users/vincixu/Workshops/cpp-basic-practies/build/CMakeFiles/edit_cache.dir
-/Users/vincixu/Workshops/cpp-basic-practies/build/CMakeFiles/rebuild_cache.dir
