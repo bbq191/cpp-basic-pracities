@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/vincixu/Workshops/cpp-basic-practies/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o -c /Users/vincixu/Workshops/cpp-basic-practies/build/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "file": "/Users/vincixu/Workshops/cpp-basic-practies/build/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+  "output": "CMakeFiles/CMakeCXXCompilerId.dir/CMakeFiles/3.27.0/CompilerIdCXX/CMakeCXXCompilerId.cpp.o"
+},
+{
+  "directory": "/Users/vincixu/Workshops/cpp-basic-practies/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/example01.dir/src/basic/example01.cpp.o -c /Users/vincixu/Workshops/cpp-basic-practies/src/basic/example01.cpp",
+  "file": "/Users/vincixu/Workshops/cpp-basic-practies/src/basic/example01.cpp",
+  "output": "CMakeFiles/example01.dir/src/basic/example01.cpp.o"
+},
+{
+  "directory": "/Users/vincixu/Workshops/cpp-basic-practies/build",
+  "command": "/opt/homebrew/opt/llvm/bin/clang++ -g -std=gnu++20 -arch arm64 -isysroot /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -o CMakeFiles/example02.dir/src/basic/example02.cpp.o -c /Users/vincixu/Workshops/cpp-basic-practies/src/basic/example02.cpp",
+  "file": "/Users/vincixu/Workshops/cpp-basic-practies/src/basic/example02.cpp",
+  "output": "CMakeFiles/example02.dir/src/basic/example02.cpp.o"
+}
+]
