@@ -1,4 +1,13 @@
 cmake_minimum_required(VERSION 3.27.0)
+
+# 编译器环境制定必须放在project之前否则无效
+set(CMAKE_CXX_COMPILER "/opt/homebrew/opt/llvm/bin/clang++")
+set(CMAKE_CXX_FLAGS "-Wall -std=c++20")
+set(CMAKE_CXX_FLAGS_DEBUG "-g")
+set(CMAKE_CXX_FLAGS_MINSIZEREL "-Os -DNDEBUG")
+set(CMAKE_CXX_FLAGS_RELEASE "-O4 -DNDEBUG")
+set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-O2 -g")
+
 project(
   cpp-basic-practies
   VERSION 0.1.0
