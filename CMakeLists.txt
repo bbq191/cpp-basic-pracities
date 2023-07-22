@@ -9,10 +9,10 @@ set(EXECUTABLE_OUTPUT_PATH ${PROJECT_BINARY_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 file(GLOB_RECURSE SRC_FILES ${PROJECT_SOURCE_DIR}/*.cpp)
 
-foreach(testsourcefile ${SRC_FILES})
+foreach(sourcefile ${SRC_FILES})
   # Cut off the file extension and directory path
-  get_filename_component(testname ${testsourcefile} NAME_WE)
-  add_executable(${testname} ${testsourcefile})
+  get_filename_component(excfile ${sourcefile} NAME_WE)
+  add_executable(${excfile} ${sourcefile})
   # Make sure YourLib is linked to each app target_link_libraries( ${testname}
   # YourLib )
-endforeach(testsourcefile ${SRC_FILES})
+endforeach(sourcefile ${SRC_FILES})
